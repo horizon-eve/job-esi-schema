@@ -1,0 +1,28 @@
+{
+  "name": "job-esi-schema",
+  "version": "1.0.0",
+  "description": "Refresh esi spec from esi swagger",
+  "main": "generate-ddl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horizon-eve/job-esi-schema.git"
+  },
+  "dependencies": {
+    "pg": "^8.7.1",
+    "yargs": "^15.1.0",
+    "request": "^2.88.2"
+  },
+  "keywords": [
+    "esi",
+    "swagger"
+  ],
+  "author": "Oleksandr Minaiev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/horizon-eve/job-esi-schema/issues"
+  },
+  "homepage": "https://github.com/horizon-eve/job-esi-schema#readme"
+}
